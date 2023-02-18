@@ -1,0 +1,31 @@
+@use "global" as *;
+
+.menu {
+    width: 100%;
+    // border-bottom: 1px solid #000;
+
+    .menu-item {
+        .menu-item-btn {
+            height: 60px;
+            // border-top: 1px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: palegoldenrod;
+            cursor: pointer;
+        }
+
+        ul {
+            display: none;
+
+            li {
+                height: 60px;
+                // border-top: 1px solid #000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: beige;
+            }
+        }
+    }
+}
